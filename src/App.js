@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import { useState, useEffect } from "react";
+import "./App.css";
+import Dashboard from "./layout/Dashboard";
+import Login from "./pages/Login";
+import Recipe from "./pages/Recipe";
+import About from "./pages/About";
+import Shop from "./pages/Shop";
+import CartDetail from "./pages/CartDetail";
+import CategoriesPages from "./pages/CategoriesPages";
+import CategoriesRecipe from "./pages/CategoriesRecipe";
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {isLoading ? (
+        <div className="loading">
+          <div className="dot dot-1"></div>
+          <div className="dot dot-2"></div>
+          <div className="dot dot-3"></div>
+        </div>
+      ) : (
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/tarif/:title" element={<Recipe />} />
+          <Route path="/kategori/:categoryName" element={<CategoriesRecipe />} />
+          <Route path="/hakkımızda" element={<About />}/>
+          <Route path="/sepet" element={<CartDetail />}/>
+          <Route path="/market" element={<Shop />}/>
+          <Route path="/kategoriler" element={<CategoriesPages />}/>
+        </Routes>
+      )}
     </div>
   );
 }
