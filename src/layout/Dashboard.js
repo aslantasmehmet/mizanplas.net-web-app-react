@@ -4,7 +4,7 @@ import Categories from "../component/Categories";
 import Navbar from "../component/Navbar";
 import NewArrivals from "../component/NewArrivals";
 import Search from "../component/Search";
-import Shopping from "../component/Shopping";
+import MenuDay from "../component/MenuDay";
 import Subscription from "../component/Subscription";
 import Contact from "../component/Contact";
 import Footer from "../component/Footer";
@@ -42,7 +42,7 @@ export default function Dashboard() {
       <Navbar />
       <Search />
       <NewArrivals />
-      <Shopping />
+      <MenuDay />
       <Subscription /> 
       <Categories />
       <Contact />

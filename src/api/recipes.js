@@ -1,44 +1,7 @@
 export const recipes = [
   {
-    id: 96,
-    categories : "Pilav & Makarna",
-    title: "Mısırlı Pirinç Pilavı",
-    explanation: "Özellikle Et ve Tavuk Yemekleri yanında vazgeçilmez lezzet, Mısırlı Pirinç Pilavı",
-    longDescription:
-      "Özellikle Et ve Tavuk Yemeklerinin vazgeçilmezi mısırlı pirinç pilavı. Konserve olarak alınan veya taneleri ayıklanan mısır, pirinç pilavına lezzet katan besinler arasında yer alır Kısa sürede hazırlayarak sofarnızın baş köşesine koyacağınız vazgeçilmez lezzet.",
-    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1683127864/m%C4%B1s%C4%B1rl%C4%B1pirin%C3%A7pilav%C4%B1_pralav.jpg",
-    manyPerson: "6",
-    preparaTiontime: "10",
-    cookingTime: "15",
-    shareRecipe: [
-      {
-        name: "Mehmet ASLANTAŞ",
-        membershipStatus: "Founder",
-        email: "mehmetaslantas@mizanplas.net",
-        image:
-          "https://res.cloudinary.com/dd4d48hwn/image/upload/v1682791174/mehmetaslanta%C5%9F_aojjvf.jpg",
-      },
-    ],
-    materials: [
-      "2 su bardağı pirinç",
-      "3 su bardağı tavuk suyu",
-      "1 kase haşlanmış mısır",
-      "Tereyağı",
-      "Kestane şekeri",
-"Sıvı yağ",
-      "Tuz",
-    ],
-    preparation: [
-      "Pirinçleri sıcak tuzlu suda bir saat bekletelim. Süzdürdükten sonra soğuk su ile iyice yıkayalım.",
-      "Tenceremize sıvı yağ ve tereyağı koyalım. İyice yıkanmış pirinçleri içine katıp 5 dk kavuralım..",
-      "Mısırları da katıp bir iki dk daha kavuralım. Tuzunu katalım.",
-      "3 su bardağı tavuk suyunu döküp iyice kaynadıktan sonra altını kısıp kapağını kapatalım. Suyunu çekene kadar pişirelim. Demlendirip servis edelim. Afiyet olsun",
-      
-    ],
-  },
-  {
-    id: 97,
-    categories : "Tatlı",
+    id: 997,
+    categories: "Tatlı",
     title: "Tatlı Dilek",
     explanation: "Masterchef Türkiye'de Mehmet Şef'in imza tabağı  Tatlı Dilek",
     longDescription:
@@ -108,8 +71,8 @@ export const recipes = [
     ],
   },
   {
-    id: 98,
-    categories : "Ana Yemek",
+    id: 998,
+    categories: "Ana Yemek",
     title: "Taş Havuz",
     explanation: "Masterchef Türkiye'de, Somer Şef'in imza tabağı  Taş Havuz",
     longDescription:
@@ -174,8 +137,8 @@ export const recipes = [
     ],
   },
   {
-    id: 99,
-    categories : "Ana Yemek",
+    id: 999,
+    categories: "Ana Yemek",
     title: "Şeftali Kebabı",
     explanation:
       "Kıbrıs'ın sevilen lezzetlerinden birini sizlerle paylaşmak isteriz. Şeftali Kebabı ",
@@ -215,8 +178,8 @@ export const recipes = [
     ],
   },
   {
-    id: 100,
-    categories:"Meze",
+    id: 1000,
+    categories: "Meze",
     title: "Uskumru Tarator",
     explanation:
       "Füme uskumru ve krema'nın eşşiz uyumu ile hazırlanan uskumru tarator, balık sevmeyenleri bile kendine hayran bırakacak bir mezedir.",
@@ -248,6 +211,188 @@ export const recipes = [
       "Soğanı ince ince doğrayın. Zeytinyağı ile birlikte karamelize edin.",
       "Bir karıştırma kabına soğan dışında bütün malzemeleri ekleyin ve blenderdan geçirin.",
       "Püre haline gelmiş tarator üzerine karamelize soğan eklenerek servis edilir. Afiyet olsun. ",
+    ],
+  },
+  {
+    id: 1001,
+    categories: "Çorba",
+    title: "Mercimek Çorbası",
+    explanation:
+      "Türk mutfağının vazgeçilmezlerinden birisi olan, lezzetli ve besleyici bir çorba olan mercimek çorbası.",
+    longDescription:
+      "Kırmızı mercimek, soğan, sarımsak, havuç ve patates gibi malzemelerle zenginleştirilen bu çorba, hem kolay hazırlanır hem de doyurucu bir öğün sunar. Mercimeklerin püre kıvamına gelene kadar pişirildiği bu tarif, sıcak servis edildiğinde hem gözleri hem de mideleri mutlu eder. Limon dilimleri ve taze maydanozla servis edilerek çorbaya tazelik ve ferahlık katılır. Hem pratik hem de lezzetli bir çorba arayanlar için ideal bir seçenektir.",
+    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1684358724/Ads%C4%B1z_tasar%C4%B1m_10_cbeaur.png",
+    manyPerson: "4",
+    preparaTiontime: "10",
+    cookingTime: "30",
+    shareRecipe: [
+      {
+        name: "Mehmet ASLANTAŞ",
+        membershipStatus: "Founder",
+        email: "mehmetaslantas@mizanplas.net",
+        image:
+          "https://res.cloudinary.com/dd4d48hwn/image/upload/v1682791174/mehmetaslanta%C5%9F_aojjvf.jpg",
+      },
+    ],
+    materials: [
+      "1 su bardağı kırmızı mercimek",
+      "1 adet soğan",
+      "2 diş sarımsak",
+      "1 yemek kaşığı domates salçası",
+      "6 su bardağı su",
+      "1 yemek kaşığı tereyağı veya sıvı yağ",
+      "1 çay kaşığı kırmızı biber",
+      "1 çay kaşığı kimyon",
+      "Tuz",
+      "Karabiber",
+      "Limon dilimleri ve maydanoz yaprakları (servis için)",
+    ],
+    preparation: [
+      "Mercimeği yıkayıp süzün.",
+      "Soğanı doğrayın, sarımsakları ezin.",
+      "Tencerede tereyağı veya sıvı yağı eritin.",
+      "Soğanları ve sarımsakları ekleyip pembeleşene kadar kavurun.",
+      "Domates salçasını ekleyip kısa bir süre daha kavurun.",
+      "Yıkanmış mercimekleri tencereye ekleyin ve karıştırın.",
+      "Su, tuz, karabiber, kimyon ve kırmızı biberi ekleyin.",
+      "Tencerenin kapağını kapatın ve mercimekler yumuşayana kadar orta ateşte pişirin (yaklaşık 25-30 dakika).",
+      "Pişen çorbayı blendır veya çatalla püre haline getirin.",
+      "Servis yaparken üzerine limon dilimleri ve maydanoz yaprakları ekleyebilirsiniz.",
+    ],
+  },
+  {
+    id: 1002,
+    categories: "Pilav & Makarna",
+    title: "Mısırlı Pirinç Pilavı",
+    explanation:
+      "Özellikle Et ve Tavuk Yemekleri yanında vazgeçilmez lezzet, Mısırlı Pirinç Pilavı",
+    longDescription:
+      "Özellikle Et ve Tavuk Yemeklerinin vazgeçilmezi mısırlı pirinç pilavı. Konserve olarak alınan veya taneleri ayıklanan mısır, pirinç pilavına lezzet katan besinler arasında yer alır Kısa sürede hazırlayarak sofarnızın baş köşesine koyacağınız vazgeçilmez lezzet.",
+    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1684358724/Ads%C4%B1z_tasar%C4%B1m_11_gjbw5i.png",
+    manyPerson: "6",
+    preparaTiontime: "10",
+    cookingTime: "15",
+    shareRecipe: [
+      {
+        name: "Mehmet ASLANTAŞ",
+        membershipStatus: "Founder",
+        email: "mehmetaslantas@mizanplas.net",
+        image:
+          "https://res.cloudinary.com/dd4d48hwn/image/upload/v1682791174/mehmetaslanta%C5%9F_aojjvf.jpg",
+      },
+    ],
+    materials: [
+      "2 su bardağı pirinç",
+      "3 su bardağı tavuk suyu",
+      "1 kase haşlanmış mısır",
+      "Tereyağı",
+      "Kestane şekeri",
+      "Sıvı yağ",
+      "Tuz",
+    ],
+    preparation: [
+      "Pirinçleri sıcak tuzlu suda bir saat bekletelim. Süzdürdükten sonra soğuk su ile iyice yıkayalım.",
+      "Tenceremize sıvı yağ ve tereyağı koyalım. İyice yıkanmış pirinçleri içine katıp 5 dk kavuralım..",
+      "Mısırları da katıp bir iki dk daha kavuralım. Tuzunu katalım.",
+      "3 su bardağı tavuk suyunu döküp iyice kaynadıktan sonra altını kısıp kapağını kapatalım. Suyunu çekene kadar pişirelim. Demlendirip servis edelim. Afiyet olsun",
+    ],
+  },
+  {
+    id: 1003,
+    categories: "Ana Yemek",
+    title: "Patateli Havuçlu Etli Güveç",
+    explanation:
+      "Enfes bir lezzet deneyimi sunan geleneksel bir lezzet, Patatesli Havuçlu Etli Güveç",
+    longDescription:
+      "Patatesli Havuçlu Etli Güveç, enfes bir lezzet deneyimi sunan geleneksel bir yemektir. Bu tarifte, mükemmel uyum sağlayan dana eti, patates, havuç ve baharatlar bir araya gelerek muhteşem bir güveç oluşturuyor. Etlerin özenle kavrulduğu, sebzelerin yumuşak ve aromatik olduğu bu güveç, lezzet avcılarının favorisi haline gelmeye aday. Sıcak ve doyurucu bu yemek, misafirlerinizi ve sevdiklerinizi şımartmanın harika bir yoludur. Hem hazırlaması kolay hem de sunumu göz alıcı olan Patatesli Havuçlu Etli Güveç, sofralarınıza lezzet ve keyif katmak için ideal bir seçenektir.",
+    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1684306145/Ads%C4%B1z_tasar%C4%B1m_9_rzcq3n.png",
+    manyPerson: "4",
+    preparaTiontime: "30",
+    cookingTime: "80",
+    shareRecipe: [
+      {
+        name: "Mehmet ASLANTAŞ",
+        membershipStatus: "Founder",
+        email: "mehmetaslantas@mizanplas.net",
+        image:
+          "https://res.cloudinary.com/dd4d48hwn/image/upload/v1682791174/mehmetaslanta%C5%9F_aojjvf.jpg",
+      },
+    ],
+    materials: [
+      "500 gram dana eti (kuşbaşı şeklinde)",
+      "2 adet büyük boy patates (küp doğranmış)",
+      "2 adet havuç (halka şeklinde dilimlenmiş)",
+      "1 adet soğan (yemeklik doğranmış)",
+      "3 diş sarımsak (ezilmiş)",
+      "2 yemek kaşığı domates salçası",
+      "2 su bardağı sıcak su",
+      "2 yemek kaşığı sıvı yağ",
+      "1 çay kaşığı pul biber",
+      "1 çay kaşığı kekik",
+      "Tuz",
+      "Karabiber",
+    ],
+    preparation: [
+      "Bir tencereye sıvı yağı ekleyin ve ısıtın.",
+      "Kuşbaşı doğranmış dana etini ekleyin ve suyunu salıp çekene kadar kavurun.",
+      "Doğranmış soğanı ve ezilmiş sarımsağı ekleyin. Soğanlar pembeleşene kadar kavurun.",
+      "Domates salçasını ekleyin ve kavurmaya devam edin.",
+      "Patatesleri ve havuç dilimlerini ekleyin. Birkaç dakika karıştırarak kavurun.",
+      "Sıcak suyu ekleyin ve karıştırın.",
+      "Tuz, karabiber, pul biber ve kekiği ekleyin. Karıştırarak kaynamaya bırakın.",
+      "Kaynadıktan sonra ateşi kısın ve güvecin kapağını kapatın.",
+      "Etler ve sebzeler yumuşayıncaya kadar, yaklaşık 1 saat pişirin.",
+      "Sıcak olarak servis yapın.",
+    ],
+  },
+  {
+    id: 1004,
+    categories: "Tatlı",
+    title: "Fırında Sütlaç",
+    explanation:
+      "Türk mutfağının sevilen tatlılarından, kremsi ve pürüzsüz bir kıvama sahip olan Fırında Sütlaç",
+    longDescription:
+      "Fırında Sütlaç, Türk mutfağının en sevilen ve geleneksel tatlılarından biridir. Kremsi dokusu ve lezzetli vanilya aromasıyla, birçok kişinin favori tatlılarından biridir. Fırında pişirilerek elde edilen altın rengi üst tabakasıyla da görsel olarak oldukça çekici bir görünüme sahiptir. ",
+    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1684306145/Ads%C4%B1z_tasar%C4%B1m_8_i9eik8.png",
+    manyPerson: "4-6",
+    preparaTiontime: "15",
+    cookingTime: "30-40",
+    shareRecipe: [
+      {
+        name: "Mehmet ASLANTAŞ",
+        membershipStatus: "Founder",
+        email: "mehmetaslantas@mizanplas.net",
+        image:
+          "https://res.cloudinary.com/dd4d48hwn/image/upload/v1682791174/mehmetaslanta%C5%9F_aojjvf.jpg",
+      },
+    ],
+    materials: [
+      "1 litre süt",
+      "1 su bardağı toz şeker",
+      "Yarım su bardağı pirinç",
+      "2 yemek kaşığı pirinç unu",
+      "1 tatlı kaşığı vanilya özütü",
+      "1 çay kaşığı rendelenmiş limon kabuğu",
+      "1 çay kaşığı tarçın (isteğe bağlı)",
+      "2 yemek kaşığı tereyağı (eritilmiş)",
+      "1 çay kaşığı tuz",
+      "3 adet yumurta sarısı",
+      "1 yemek kaşığı nişasta (isteğe bağlı)",
+    ],
+    preparation: [
+      "Fırını 180 dereceye ayarlayın ve ısıtmaya başlayın.",
+      "Bir tencereye sütü ekleyin ve orta ateşte ısıtın. Süt kaynamaya başladığında altını kısın.",
+      "Ayrı bir kapta pirinci yıkayın ve süzün.",
+      "Yıkanmış pirinci kaynar sütün içine ekleyin. Karıştırarak pirinçlerin yumuşamasını sağlayın. Arada karıştırarak, yaklaşık 15-20 dakika pişirin.",
+      "Toz şekeri ekleyin ve karıştırarak eritin.",
+      "Pirinçler iyice piştiğinde tencereyi ocaktan alın.",
+      "Pirinç ununu, vanilya özütünü, rendelenmiş limon kabuğunu, tarçını (isteğe bağlı), eritilmiş tereyağını ve tuzu ekleyin. Karıştırarak tüm malzemelerin iyice birleşmesini sağlayın.",
+      "Yumurta sarılarını ekleyin ve hızlıca karıştırın. Bu aşamada nişasta kullanmak isterseniz, nişastayı da ekleyin ve karıştırmaya devam edin.",
+      "Karışımı fırın kabına dökün. Üzerini düzleştirerek pürüzsüz bir görünüm elde edin.",
+      "Fırın kabını, önceden ısıttığınız 180 derece fırında yaklaşık 30-40 dakika pişirin. Sütlaç, üstü hafif kızarana ve kıvamı iyice yoğunlaşana kadar pişmeye devam etmelidir.",
+      "Pişen sütlaçları fırından çıkarın ve oda sıcaklığına gelmesini bekleyin.",
+      "Oda sıcaklığına geldikten sonra sütlaçları buzdolabına kaldırın ve iyice soğuması için birkaç saat bekletin.",
+      "Servis yapmadan önce üzerini tarçın veya hindistan cevizi ile süsleyebilirsiniz.",
     ],
   },
 ];
