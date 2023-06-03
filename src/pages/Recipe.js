@@ -57,7 +57,7 @@ export default function Recipe() {
           </div>
           {/* Title */}
           <div>
-            <div className="font-bold font-display2 text-white text-5xl pt-7 text-left -translate-y-24 -translate-x-32">
+            <div className="font-bold font-display2 text-white text-5xl pt-7 -translate-y-24 translate-x-8">
               {recipe.title}
             </div>
           </div>
