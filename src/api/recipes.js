@@ -6,7 +6,7 @@ export const recipes = [
     explanation: "Masterchef Türkiye'de Mehmet Şef'in imza tabağı  Tatlı Dilek",
     longDescription:
       "Masterchef Türkiye'de Mehmet Şef'in imza tabağı olan tatlı dilek yapımında, krem fontana ve sifon kek kullanılır. Tatlının üzerinde birbirinden farklı meyveler kullanılır. Malzemeler hazırsa, Mehmet Şef'ten tatlı dilek tarifi için detaylara geçebiliriz.",
-    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1680771689/tatl%C4%B1dilek_ee1905.jpg",
+    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1685746157/tatl%C4%B1dilek_tyqpe8.png",
     manyPerson: "2",
     preparaTiontime: "20",
     cookingTime: "40",
@@ -77,7 +77,7 @@ export const recipes = [
     explanation: "Masterchef Türkiye'de, Somer Şef'in imza tabağı  Taş Havuz",
     longDescription:
       "Kıbrıs'ın sevilen lezzetlerinden birini sizlerle paylaşmak isteriz. Şeftali kebabı Kıbrıs'a ait bir kebaptır. Koyun veya keçinin gömlek yağından yapılır. Gömlek yağının içerisine kıymalı harç koyularak pişirilir. Şişte veya ızgarada pişirilmesi önerilir. Malzemeler hazırsa, Kıbrıs usulü şeftali kebabı tarifine geçebiliriz.",
-    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1680771690/ta%C5%9Fhavuz_i9qcik.jpg",
+    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1685746158/ta%C5%9F_havuz_zbxast.png",
     manyPerson: "2",
     preparaTiontime: "25",
     cookingTime: "40",
@@ -144,7 +144,7 @@ export const recipes = [
       "Kıbrıs'ın sevilen lezzetlerinden birini sizlerle paylaşmak isteriz. Şeftali Kebabı ",
     longDescription:
       "Kıbrıs'ın sevilen lezzetlerinden birini sizlerle paylaşmak isteriz. Şeftali kebabı Kıbrıs'a ait bir kebaptır. Koyun veya keçinin gömlek yağından yapılır. Gömlek yağının içerisine kıymalı harç koyularak pişirilir. Şişte veya ızgarada pişirilmesi önerilir. Malzemeler hazırsa, Kıbrıs usulü şeftali kebabı tarifine geçebiliriz.",
-    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1680771690/seftalikebab%C4%B1_xg0vov.jpg",
+    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1685746308/%C5%9Feftlikebab%C4%B1_vycmjn.png",
     manyPerson: "5",
     preparaTiontime: "15",
     cookingTime: "30",
@@ -185,7 +185,7 @@ export const recipes = [
       "Füme uskumru ve krema'nın eşşiz uyumu ile hazırlanan uskumru tarator, balık sevmeyenleri bile kendine hayran bırakacak bir mezedir.",
     longDescription:
       "Füme uskumru ve krema ile hazırlanan uskumru tarator, balık sevmeyenleri bile kendine hayran bırakacak bir mezedir. Yemeklerin yanında sunabileceğiniz bu meze, ortalama 30 dakikada hazırlanır. Tarifte kullanacağınız uskumrunun, tamamen kılçıksız olması gerekir. Malzemeler hazırsa, uskumru tarator yapımına geçebiliriz.",
-    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1680771689/uskumrutarator_tujhcg.jpg",
+    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1685746158/uskumrutarator_gjgy4f.png",
     manyPerson: "4",
     preparaTiontime: "15",
     cookingTime: "15",
@@ -195,7 +195,7 @@ export const recipes = [
         membershipStatus: "Founder",
         email: "mehmetaslantas@mizanplas.net",
         image:
-          "https://res.cloudinary.com/dd4d48hwn/image/upload/v1682791174/mehmetaslanta%C5%9F_aojjvf.jpg",
+          "https://res.cloudinary.com/dd4d48hwn/image/upload/v1685746158/uskumrutarator_gjgy4f.png",
       },
     ],
     materials: [

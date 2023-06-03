@@ -8,6 +8,7 @@ import MenuDay from "../component/MenuDay";
 import Subscription from "../component/Subscription";
 import Contact from "../component/Contact";
 import Footer from "../component/Footer";
+import Blog from "../component/Blog";
 
 export default function Dashboard() {
   const [showButton, setShowButton] = useState(false);
@@ -43,6 +44,7 @@ export default function Dashboard() {
       <Search />
       <NewArrivals />
       <MenuDay />
+      <Blog/>
       <Subscription /> 
       <Categories />
       <Contact />

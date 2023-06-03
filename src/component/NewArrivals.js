@@ -8,6 +8,7 @@ export default function NewArrivals() {
   useEffect(() => {
     setRecipes(recipeData);
   }, []);
+  const visibleRecipes = recipes.slice(0, recipes.length - 4);
 
   const settings = {
     dots: false,
@@ -31,7 +32,7 @@ export default function NewArrivals() {
     <div className="w-full h-full container mx-auto new-arrivals">
       <div className="text-green-900 text-semibold text-4xl font-display2 mb-6">En Yeni Tarifler</div>
       <Slider {...settings} className="slick-slider">
-        {recipes.map((recipe) => (
+        {visibleRecipes.map((recipe) => (
           <div key={recipe.id} className="slick-slide">
             <div className="border w-full h-full rounded shadow-lg">
               <img src={recipe.img} alt={recipe.title} />

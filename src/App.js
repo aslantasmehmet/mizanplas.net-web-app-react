@@ -4,11 +4,13 @@ import "./App.css";
 import Dashboard from "./layout/Dashboard";
 import Login from "./pages/Login";
 import Recipe from "./pages/Recipe";
+import NewsDetail from "./pages/NewsDetail";
 import About from "./pages/About";
 import Shop from "./pages/Shop";
 import CartDetail from "./pages/CartDetail";
 import CategoriesPages from "./pages/CategoriesPages";
 import CategoriesRecipe from "./pages/CategoriesRecipe";
+import TopFlavors from "./component/TopFlavors";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -32,11 +34,13 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/login" element={<Login />} />
           <Route path="/tarif/:title" element={<Recipe />} />
+          <Route path="/haber/:title" element={<NewsDetail />} />
           <Route path="/kategori/:categoryName" element={<CategoriesRecipe />} />
           <Route path="/hakkımızda" element={<About />}/>
           <Route path="/sepet" element={<CartDetail />}/>
           <Route path="/market" element={<Shop />}/>
           <Route path="/kategoriler" element={<CategoriesPages />}/>
+          <Route path="/top" element={<TopFlavors />}/>
         </Routes>
       )}
     </div>
