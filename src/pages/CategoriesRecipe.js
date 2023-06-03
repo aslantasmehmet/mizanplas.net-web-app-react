@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { recipes } from "../api/recipes";
 import { FaStar } from "react-icons/fa";
 import Navbar from "../component/Navbar";
@@ -7,7 +7,6 @@ import Navbar from "../component/Navbar";
 export default function CategoriesRecipe() {
   const { categoryName } = useParams();
   const [searchQuery, setSearchQuery] = useState("");
-  
 
   // Filter the recipes by category and search query
   const filteredRecipes = recipes.filter(
@@ -37,10 +36,10 @@ export default function CategoriesRecipe() {
         <h2>{categoryName.introductoryText}</h2>
       </div>
       <div className="container mx-auto pb-10 pt-2 px-4 sm:px-6 lg:px-8">
-        <div className="bg-[url('https://res.cloudinary.com/dd4d48hwn/image/upload/v1683100054/Ads%C4%B1z_tasar%C4%B1m_4_q6ahvg.png')] w-full h-64">
+        <div className="bg-[url('https://res.cloudinary.com/dd4d48hwn/image/upload/v1684010691/Ads%C4%B1z_tasar%C4%B1m_7_nmqvkb.png')] w-full h-64">
           <div className="flex justify-center my-4 ">
             <input
-              className="py-3 px-4 md:w-[600px] w-[300px] h-12 md:ml-0 ml-16 w-auto border text-gray-800 border-green-900 bg-white mt-28 shadow-lg rounded-full focus:outline-none"
+              className="py-3 px-4 md:w-[650px] w-[300px] h-12 md:ml-0 ml-16 w-auto border text-gray-800 border-green-900 bg-white mt-28 shadow-lg rounded-full focus:outline-none"
               placeholder="Tarif Ara"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -60,12 +59,15 @@ export default function CategoriesRecipe() {
                   alt={recipe.title}
                 />
                 <div className="flex flex-col  my-4">
-                  <div className="font-bold text-2xl text-left font-display2 text-green-900 mt-4 mb-">
-                    {recipe.title}
-                  </div>
-                  <div className="text-stone-500 text-md text-left font-display2 mb-2">
-                    {recipe.explanation}
-                  </div>
+                  <Link to={`/tarif/${recipe.title}`}>
+                    {" "}
+                    <div className="font-bold text-2xl text-left font-display2 text-green-900 mt-4 mb-">
+                      {recipe.title}
+                    </div>
+                    <div className="text-stone-500 text-md text-left font-display2 mb-2">
+                      {recipe.explanation}
+                    </div>
+                  </Link>
                   <div className="flex">
                     {[...Array(5)].map((star, index) => {
                       const ratingValue = index + 1;

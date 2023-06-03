@@ -1,13 +1,31 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import categoriesData from "../api/categories";
+import recipesData from "../api/recipes";
 
 export default function Categories() {
   const [categories, setCategories] = useState([]);
+  const [recipes, setRecipes] = useState([]);
+  const [categoryCounts, setCategoryCounts] = useState({});
 
   useEffect(() => {
     setCategories(categoriesData);
+    setRecipes(recipesData);
+    countRecipes();
   }, []);
+
+  const countRecipes = () => {
+    const counts = {};
+
+    categoriesData.forEach((category) => {
+      const recipeCount = recipesData.filter(
+        (recipe) => recipe.categories === category.name
+      ).length;
+      counts[category.name] = recipeCount;
+    });
+
+    setCategoryCounts(counts);
+  };
 
   return (
     <div className="container mx-auto py-10 px-4 sm:px-6 lg:px-8 categories">
@@ -25,7 +43,7 @@ export default function Categories() {
                   {category.name}
                 </div>
                 <div className="text-xs text-gray-400">
-                  {category.numberOfRecipes} Tarif
+                  {categoryCounts[category.name] || 0} Tarif
                 </div>
               </div>
             </div>
@@ -37,7 +55,7 @@ export default function Categories() {
           href="/kategoriler"
           className="bg-green-900 hover:bg-black text-white font-display2 py-3 px-10 rounded transition duration-500 ease-in-out transform hover:scale-110"
         >
-          Daha Fazlası
+          Daha Fazla
         </a>
       </div>
     </div>
