@@ -39,11 +39,11 @@ export default function Blog() {
               <Link to={`/haber/${haber.title}`}>
                 <div className="relative">
                   <img className="shadow" src={haber.img} alt={haber.title} />
-                  <div className="flex flex-col absolute bottom-0 left-0 w-full md:w-[500px] h-40 bg-black bg-opacity-70 p-2 pl-4">
+                  <div className="flex flex-col absolute bottom-0 left-0 w-full md:w-[500px] md:h-40 h-20 w-[300px] bg-black bg-opacity-70 p-2 pl-4">
                     <div className="text-white font-bold text-left font-display2 text-2xl">
                       {haber.title}
                     </div>
-                    <div className="mt-4 font-display text-white text-lg text-left">
+                    <div className="mt-4 font-display text-white text-lg text-left hidden md:block">
                       {haber.explanation}
                     </div>
                   </div>
@@ -78,8 +78,8 @@ export default function Blog() {
             </div>
           ))}
 
-          <div className="flex justify-center">
-            <button className="text-green-900 font-semibold hover:text-green-700">
+          <div>
+            <button className="border px-3 py-3 text-white font-normal font-display2 bg-green-900 hover:bg-black md:translate-x-32 md:mt-2 shadow rounded duration-500 ease-in-out transform hover:scale-110">
               Daha Fazlasını Gör
             </button>
           </div>

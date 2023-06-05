@@ -48,7 +48,7 @@ export default function MenuDay() {
 
   return (
     <div>
-      <div className="container mx-auto  mb-16 shopping">
+      <div className="container mx-auto  mb-16 menu-day">
         <div className="text-green-900 text-semibold text-4xl font-display2 mb-6">
           Günün Menüsü
         </div>
