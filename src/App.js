@@ -24,10 +24,7 @@ function App() {
 
   return (
     <div className="App">
-
-     <div className=" w-full h-screnn hidden md:block"><img src="https://res.cloudinary.com/dd4d48hwn/image/upload/v1685974082/Seni_1_ije58m.png"/></div>
-     
-      {/* {isLoading ? (
+      {isLoading ? (
         <div className="loading">
           <div className="dot dot-1"></div>
           <div className="dot dot-2"></div>
@@ -50,7 +47,7 @@ function App() {
           <Route path="/kategoriler" element={<CategoriesPages />} />
           <Route path="/top" element={<TopFlavors />} />
         </Routes>
-      )} */}
+      )}
     </div>
   );
 }
