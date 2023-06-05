@@ -5,6 +5,7 @@ import Dashboard from "./layout/Dashboard";
 import Login from "./pages/Login";
 import Recipe from "./pages/Recipe";
 import NewsDetail from "./pages/NewsDetail";
+import BlogDetail from "./pages/BlogDetail";
 import About from "./pages/About";
 import Shop from "./pages/Shop";
 import CartDetail from "./pages/CartDetail";
@@ -23,7 +24,10 @@ function App() {
 
   return (
     <div className="App">
-      {isLoading ? (
+
+     <div className=" w-full h-screnn hidden md:block"><img src="https://res.cloudinary.com/dd4d48hwn/image/upload/v1685974082/Seni_1_ije58m.png"/></div>
+     
+      {/* {isLoading ? (
         <div className="loading">
           <div className="dot dot-1"></div>
           <div className="dot dot-2"></div>
@@ -35,14 +39,18 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/tarif/:title" element={<Recipe />} />
           <Route path="/haber/:title" element={<NewsDetail />} />
-          <Route path="/kategori/:categoryName" element={<CategoriesRecipe />} />
-          <Route path="/hakkımızda" element={<About />}/>
-          <Route path="/sepet" element={<CartDetail />}/>
-          <Route path="/market" element={<Shop />}/>
-          <Route path="/kategoriler" element={<CategoriesPages />}/>
-          <Route path="/top" element={<TopFlavors />}/>
+          <Route path="/blog/:title" element={<BlogDetail />} />
+          <Route
+            path="/kategori/:categoryName"
+            element={<CategoriesRecipe />}
+          />
+          <Route path="/hakkımızda" element={<About />} />
+          <Route path="/sepet" element={<CartDetail />} />
+          <Route path="/market" element={<Shop />} />
+          <Route path="/kategoriler" element={<CategoriesPages />} />
+          <Route path="/top" element={<TopFlavors />} />
         </Routes>
-      )}
+      )} */}
     </div>
   );
 }
