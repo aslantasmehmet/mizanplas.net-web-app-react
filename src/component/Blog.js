@@ -28,9 +28,9 @@ export default function Blog() {
   const displayBlogs = showMoreBlogs ? blogs : blogs.slice(0, 2);
 
   return (
-    <div className="grid gap-4 grid-cols-1 md:grid-cols-2 blog container mx-auto">
+    <div className="grid gap-4 grid-cols-1 md:grid-cols-2 blog container mx-auto md:-translate-y-0 -translate-y-12">
       <div>
-        <div className="text-3xl text-left font-bold text-green-900 mb-4 font-display2 ml-2">
+        <div className="text-3xl text-left font-bold text-green-900 mb-8 font-display2 ml-2">
           Güncel Haberler
         </div>
         <Slider {...settings}>

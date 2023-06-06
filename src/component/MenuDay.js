@@ -48,7 +48,7 @@ export default function MenuDay() {
 
   return (
     <div>
-      <div className="container mx-auto  mb-16 menu-day">
+      <div className="container mx-auto  md:mb-16 menu-day md:-translate-y-0 -translate-y-20">
         <div className="text-green-900 text-semibold text-4xl font-display2 mb-6">
           Günün Menüsü
         </div>
@@ -68,7 +68,7 @@ export default function MenuDay() {
                   </div>
                   <div>
                     <Link to={`/tarif/${recipe.title}`}>
-                      <button className="border w-32 h-10 bg-green-900 hover:bg-black text-white px-3 py-2 mb-4 mt-4 shadow rounded font-display2 duration-500">
+                      <button className="border w-32 h-10 bg-green-900 hover:bg-black text-white px-3 py-2 md:mb-4 mt-4 shadow rounded font-display2 duration-500">
                         Detaylı Tarif
                       </button>
                     </Link>

@@ -29,7 +29,7 @@ export default function NewArrivals() {
   };
 
   return (
-    <div className="w-full h-full container mx-auto new-arrivals">
+    <div className="w-full h-full container mx-auto new-arrivals ">
       <div className="text-green-900 text-semibold text-4xl font-display2 mb-6">En Yeni Tarifler</div>
       <Slider {...settings} className="slick-slider">
         {visibleRecipes.map((recipe) => (
@@ -46,7 +46,7 @@ export default function NewArrivals() {
               </div>
               <div>
                 <Link to={`/tarif/${recipe.title}`}>
-                  <button className="border w-32 h-10 bg-green-900 hover:bg-black text-white px-3 py-2 mb-4 mt-4 shadow rounded font-display2 duration-500">
+                  <button className="border w-32 h-10 bg-green-900 hover:bg-black text-white px-3 py-2 md:mb-4 mt-4 shadow rounded font-display2 duration-500">
                     Detaylı Tarif
                   </button>
                 </Link>
