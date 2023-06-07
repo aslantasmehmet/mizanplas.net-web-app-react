@@ -1,5 +1,162 @@
 export const recipes = [
   {
+    "id": 994,
+    "categories": "Ana Yemek",
+    "title": "Etli Kuru Fasulye",
+    "explanation": "Geleneksel Türk mutfağının vazgeçilmez lezzetlerinden biri olan etli kuru fasulye tarifi.",
+    "longDescription": "Etli kuru fasulye, Türk mutfağının en sevilen yemeklerinden biridir. Uzun süre pişirilen fasulyeler, et ile birlikte harika bir lezzet oluşturur. Malzemeler hazırsa, etli kuru fasulye tarifimize geçebiliriz.",
+    "img": "https://res.cloudinary.com/dd4d48hwn/image/upload/v1686072346/Ads%C4%B1z_tasar%C4%B1m_21_kqwfbt.png",
+    "manyPerson": "4",
+    "preparaTiontime": "15",
+    "cookingTime": "120",
+    "shareRecipe": [
+      {
+        "name": "Mehmet ASLANTAŞ",
+        "membershipStatus": "Kurucu",
+        "email": "mehmetaslantas@mizanplas.net",
+        "image": "https://res.cloudinary.com/dd4d48hwn/image/upload/v1682791174/mehmetaslanta%C5%9F_aojjvf.jpg"
+      }
+    ],
+    "materials": [
+      "500 gr kuru fasulye",
+      "300 gr dana eti",
+      "2 adet soğan",
+      "3 diş sarımsak",
+      "2 yemek kaşığı domates salçası",
+      "2 yemek kaşığı sıvı yağ",
+      "1 yemek kaşığı tereyağı",
+      "1 çay kaşığı şeker",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Su"
+    ],
+    "preparation": [
+      "Kuru fasulyeleri akşamdan su dolu bir kapta ıslatın.",
+      "Ertesi gün, fasulyeleri yıkayın ve süzün.",
+      "Tencereye sıvı yağı ekleyin ve kızdırın.",
+      "Yemeklik doğranmış soğanları ve ezilmiş sarımsakları ekleyerek kavurun.",
+      "Küp doğranmış dana etini ekleyin ve etler suyunu salıp çekene kadar kavurun.",
+      "Salçayı ekleyerek karıştırın ve kısık ateşte biraz daha kavurun.",
+      "Süzülmüş kuru fasulyeleri tencereye ekleyin ve karıştırın.",
+      "Üzerini geçecek kadar su ekleyin.",
+      "Tuz, karabiber, kimyon ve şeker ekleyerek karıştırın.",
+      "Tencerenin kapağını kapatın ve kısık ateşte fasulyeler yumuşayana kadar pişirin. Arada su ekleyebilirsiniz.",
+      "Fasulyeler yumuşadığında, tereyağını ekleyin ve karıştırın.",
+      "Kapağı açık şekilde düşük ateşte fasulyeleri kaynamaya bırakın. Ara ara karıştırarak suyunu çekmesini sağlayın.",
+      "Fasulyelerin suyunu çektiğini ve etlerin tamamen piştiğini kontrol edin.",
+      "Pişme süresi yaklaşık 2 saat olacaktır. Eğer fasulyeler hala sertse ve suyu çekilmemişse, pişirme süresini uzatabilirsiniz.",
+      "Etli kuru fasulye, sıcak servis yapılabilir. Yanında pilav veya turşu ile servis edebilirsiniz.Afiyet olsun!",
+      
+    ]
+  },
+  {
+    id: 995,
+    categories: "Salata",
+    title: "Çoban Salata",
+    explanation: "Lezzetli ve sağlıklı bir çoban salatası tarifi.",
+    longDescription: "Çoban salatası, taze sebzelerin harmanlanmasıyla hazırlanan bir salatadır. Malzemeler hazırsa, çoban salata tarifi için detaylara geçebiliriz.",
+    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1686072346/Ads%C4%B1z_tasar%C4%B1m_20_x5ieff.png",
+    manyPerson: "4",
+    preparaTiontime: "15",
+    cookingTime: "0",
+    shareRecipe: [
+      {
+        name: "Mehmet ASLANTAŞ",
+        membershipStatus: "Founder",
+        email: "mehmetaslantas@mizanplas.net",
+        image:
+          "https://res.cloudinary.com/dd4d48hwn/image/upload/v1682791174/mehmetaslanta%C5%9F_aojjvf.jpg",
+      },
+    ],
+    materials: [
+      "3 adet domates",
+      "2 adet salatalık",
+      "1 adet yeşil biber",
+      "1 adet kırmızı biber",
+      "1 adet soğan",
+      "200 gr beyaz peynir",
+      "Yarım demet maydanoz",
+      "Yarım limon",
+      "3 yemek kaşığı zeytinyağı",
+      "Tuz",
+      "Karabiber"
+    ],
+    preparation: [
+      "Domatesleri, salatalıkları, yeşil biberi ve kırmızı biberi küp şeklinde doğrayın.",
+      "Soğanı ince doğrayın ve tuzlu suda bekletin.",
+      "Beyaz peyniri küp şeklinde doğrayın veya rendeleyin.",
+      "Maydanozu ince ince kıyın.",
+      "Doğradığınız sebzeleri ve süzdüğünüz soğanı bir salata kabına alın.",
+      "Üzerine beyaz peyniri ve kıyılmış maydanozu ekleyin.",
+      "Zeytinyağı, limon suyu, tuz ve karabiberi ekleyerek karıştırın.",
+      "Salatayı buzdolabında en az yarım saat dinlendirin.",
+      "Servis yapmadan önce karıştırarak servis tabağına alın. Afiyet olsun!",
+     
+    ]
+  },
+  {
+    id: 996,
+    categories: "Ana Yemek",
+    title: "Beef Wellington",
+    explanation:
+      "Beef Wellington, etin mantar dolgusuyla sarılarak fırında pişirildiği lezzetli bir İngiliz yemeğidir.",
+    longDescription:
+      "Beef Wellington, özellikle özel günlerde sunulan bir yemektir. İçerisinde ince dilimlenmiş dana eti, mantarlı duxelle sosu ve krep hamuru bulunur. Bu özel tarifi denemeye ne dersiniz?",
+    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1686072347/Ads%C4%B1z_tasar%C4%B1m_19_j8mbmc.png",
+    manyPerson: "4",
+    preparaTiontime: "30",
+    cookingTime: "60",
+    shareRecipe: [
+      {
+        name: "Mehmet ASLANTAŞ",
+        membershipStatus: "Founder",
+        email: "mehmetaslantas@mizanplas.net",
+        image:
+          "https://res.cloudinary.com/dd4d48hwn/image/upload/v1682791174/mehmetaslanta%C5%9F_aojjvf.jpg",
+      },
+    ],
+
+    materials: [
+      "800 gr dana filetosu",
+      "Tuz",
+      "Karabiber",
+      "Zeytinyağı",
+      "300 gr mantar",
+      "2 diş sarımsak",
+      "Maydanoz",
+      "2 yemek kaşığı tereyağı",
+      "12 dilim Parma jambon",
+      "2 adet yufka hamuru",
+      "2 adet yumurta sarısı",
+      "Kızartma yağı",
+    ],
+    preparation: [
+      "Dana filetosunu tuz ve karabiberle ovun.",
+      "Zeytinyağını tavada kızdırın ve filetoyu her iki tarafını da kızartın.",
+      "Kızartılan filetoyı dinlenmesi için bir kenara alın.",
+      "Mantarları doğrayın, sarımsakları ezin ve maydanozu ince şekilde doğrayın.",
+      "Tereyağını tavada eritin ve mantarları ekleyin. Mantarlar suyunu salıp çekene kadar kavurun.",
+      "Sarımsakları ekleyin ve karıştırın.",
+      "Karışıma ince doğranmış maydanozu ekleyin ve karışımı ocaktan alın.",
+      "Bir yufka hamurunu düz bir zemine serin.",
+      "Üzerine dilimlenmiş Parma jambonu yerleştirin.",
+      "Mantarlı karışımı jambonun üzerine yayın.",
+      "Kızartılmış dana filetosunu karışımın üzerine yerleştirin.",
+      "Yufka hamurunun kenarlarını filetonun üzerine kapatın ve yufkayı sıkıca sarın.",
+      "İkinci yufka hamurunu da düz bir zemine serin.",
+      "Üzerine bir dilim Parma jambon yerleştirin.",
+      "Mantarlı karışımı jambonun üzerine yayın ve filetoyu sarılmış yufka hamurunun üzerine yerleştirin. Yufkayı sıkıca sararak etin tamamen kaplanmasını sağlayın.",
+      "Yumurta sarılarını çırpın ve yufka hamurunun üzerine sürün.",
+      "Önceden ısıtılmış 180 derece fırında, üzeri güzelce kızarana kadar yaklaşık 40-45 dakika pişirin.",
+      "Pişen Beef Wellington'ı fırından çıkarın ve biraz dinlenmesi için bekletin.",
+      "Daha sonra dilimleyerek servis yapın.",
+      "Beef Wellington'ı dilerseniz yanında püre patates veya sebzelerle servis edebilirsiniz. Afiyet olsun!",
+
+    ],
+  },
+
+  {
     id: 997,
     categories: "Tatlı",
     title: "Tatlı Dilek",
