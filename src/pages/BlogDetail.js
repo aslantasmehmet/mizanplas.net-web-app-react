@@ -24,24 +24,24 @@ export default function BlogDetail() {
     <div className="flex flex-col">
       <Navbar />
       <Search />
-      <div className="flex ...">
-        <div className="flex-none w-64 h-full ..."></div>
-        <div className="grow h-full ...">
-          <div className="flex flex-col mt-6">
-            <div className="text-left text-5xl text-green-900 font-display2 mb-8">
+      <div className="flex flex-col lg:flex-row">
+        <div className="flex-none lg:w-64 h-full"></div>
+        <div className="flex-grow h-full lg:w-1/2 xl:w-2/3">
+          <div className="flex flex-col mt-6 ">
+            <div className="text-left text-5xl text-green-900 font-display2 mb-8 ml-6">
               {blog.title}
             </div>
-            <div className="text-left text-xl text-stone-700 font-display2 mb-8">
+            <div className="text-left text-xl text-stone-700 font-display2 mb-8 ml-6">
               {blog.header}
             </div>
-            <div>
-              <img className="shadow" src={blog.img} alt={blog.title} />
+            <div className="md:ml-6 md:mx-0 mx-10">
+              <img className="shadow " src={blog.img} alt={blog.title} />
             </div>
             <div className="mt-8">
               {longDescription.map((long, index) => (
                 <div
                   key={index}
-                  className="text-left font-display2 text-stone-700 text-lg mb-4 "
+                  className="text-left font-display2 text-stone-700 text-lg mb-4 ml-6"
                 >
                   {long}
                 </div>
@@ -50,9 +50,9 @@ export default function BlogDetail() {
             <div className="mt-6"></div>
           </div>
         </div>
-        <div className="flex-none w-72 h-full "></div>
+        <div className="flex-none lg:w-72 h-full"></div>
       </div>
-      <div className="container mx-auto mb-8">
+      <div className=" mb-8 mx-16">
         <TopFlavors />
       </div>
     </div>
