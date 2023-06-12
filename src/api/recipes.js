@@ -1,23 +1,219 @@
 export const recipes = [
   {
-    "id": 994,
-    "categories": "Ana Yemek",
-    "title": "Etli Kuru Fasulye",
-    "explanation": "Geleneksel Türk mutfağının vazgeçilmez lezzetlerinden biri olan etli kuru fasulye tarifi.",
-    "longDescription": "Etli kuru fasulye, Türk mutfağının en sevilen yemeklerinden biridir. Uzun süre pişirilen fasulyeler, et ile birlikte harika bir lezzet oluşturur. Malzemeler hazırsa, etli kuru fasulye tarifimize geçebiliriz.",
-    "img": "https://res.cloudinary.com/dd4d48hwn/image/upload/v1686072346/Ads%C4%B1z_tasar%C4%B1m_21_kqwfbt.png",
-    "manyPerson": "4",
-    "preparaTiontime": "15",
-    "cookingTime": "120",
-    "shareRecipe": [
+    id: 990,
+    categories: "Ana Yemek",
+    title: " Etli Nohut Yemeği",
+    explanation: "Geleneksel Türk mutfağının vazgeçilmez lezzetlerinden biri olan etli nohut yemeği tarifi.",
+    longDescription:
+      "Etli nohut yemeği, Türk mutfağının vazgeçilmezlerinden biridir. Et ve nohutun harika uyumuyla hazırlanan bu yemek, lezzetli bir alternatif sunar. İşte havuçlu etli nohut yemeği tarifi:",
+    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1686580606/etli_nohut_yeme%C4%9Fi_fk5plu.png",
+    manyPerson: "4",
+    preparaTiontime: "15",
+    cookingTime: "90",
+    shareRecipe: [
       {
-        "name": "Mehmet ASLANTAŞ",
-        "membershipStatus": "Kurucu",
-        "email": "mehmetaslantas@mizanplas.net",
-        "image": "https://res.cloudinary.com/dd4d48hwn/image/upload/v1682791174/mehmetaslanta%C5%9F_aojjvf.jpg"
-      }
+        name: "Mehmet ASLANTAŞ",
+        membershipStatus: "Kurucu",
+        email: "mehmetaslantas@mizanplas.net",
+        image:
+          "https://res.cloudinary.com/dd4d48hwn/image/upload/v1682791174/mehmetaslanta%C5%9F_aojjvf.jpg",
+      },
     ],
-    "materials": [
+    materials: [
+      "500 gr nohut",
+      "300 gr dana eti",
+      "2 adet havuç",
+      "2 adet soğan",
+      "3 diş sarımsak",
+      "2 yemek kaşığı domates salçası",
+      "2 yemek kaşığı sıvı yağ",
+      "1 yemek kaşığı tereyağı",
+      "1 çay kaşığı şeker",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Su",
+    ],
+    preparation: [
+      "Nohutları akşamdan su dolu bir kapta ıslatın.",
+      "Ertesi gün, nohutları süzün ve yıkayın.",
+      "Tencereye sıvı yağı ekleyin ve kızdırın.",
+      "Yemeklik doğranmış soğanları ve ezilmiş sarımsakları ekleyerek kavurun.",
+      "Küp doğranmış dana etini ekleyin ve etler suyunu salıp çekene kadar kavurun.",
+      "Salçayı ekleyerek karıştırın ve kısık ateşte biraz daha kavurun.",
+      "Havuçları doğrayın ve tencereye ekleyin, karıştırın.",
+      "Süzülmüş nohutları tencereye ekleyin ve karıştırın.",
+      "Üzerini geçecek kadar su ekleyin.",
+      "Tuz, karabiber, kimyon ve şeker ekleyerek karıştırın.",
+      "Tencerenin kapağını kapatın ve orta ateşte nohutlar yumuşayana kadar pişirin. Arada su ekleyebilirsiniz.",
+      "Nohutlar yumuşadığında, tereyağını ekleyin ve karıştırın.",
+      "Kapağı açık şekilde düşük ateşte yemeği kaynamaya bırakın. Ara ara karıştırarak suyunu çekmesini sağlayın. Bu süre içinde etin ve havuçların iyice piştiğini kontrol edin.",
+
+      "Pişme süresi yaklaşık 1,5 - 2 saat olacaktır. Eğer nohutlar hala sertse ve suyu çekilmemişse, pişirme süresini uzatabilirsiniz.",
+
+      "Havuçlu etli nohut yemeği, sıcak servis yapılabilir. Yanında pilav veya turşu ile servis edebilirsiniz. Afiyet olsun!",
+    ],
+  },
+  {
+    id: 991,
+    categories: "Aperatif",
+    title: "Dereotlu Puaça",
+    explanation: "Mis gibi dereotu aromasıyla leziz bir puaça tarifi.",
+    longDescription:
+      "Dereotlu puaça, çay saatlerinin vazgeçilmez lezzetlerinden biridir. Taze dereotu ile hazırlanan bu puaçalar, yumuşak ve lezzetli bir hamur ile buluşur. İşte dereotlu puaça tarifi:",
+    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1686580607/dereotlu_po%C4%9Fa%C3%A7a_prfepx.png",
+    manyPerson: "6",
+    preparaTiontime: "30",
+    cookingTime: "20",
+    shareRecipe: [
+      {
+        name: "Mehmet ASLANTAŞ",
+        membershipStatus: "Kurucu",
+        email: "mehmetaslantas@mizanplas.net",
+        image:
+          "https://res.cloudinary.com/dd4d48hwn/image/upload/v1682791174/mehmetaslanta%C5%9F_aojjvf.jpg",
+      },
+    ],
+    materials: [
+      "3 su bardağı un",
+      "1 su bardağı yoğurt",
+      "1 su bardağı sıvı yağ",
+      "1 çay bardağı su",
+      "1 paket kabartma tozu",
+      "1 çay kaşığı tuz",
+      "1 demet dereotu",
+      "100 gr beyaz peynir",
+    ],
+    preparation: [
+      "Unu bir kaseye alın ve ortasını havuz gibi açın.",
+      "Yoğurdu, sıvı yağı, suyu, kabartma tozunu ve tuzu ekleyin.",
+      "Yavaşça karıştırarak hamuru yoğurun ve ele yapışmayacak bir kıvam elde edene kadar un ekleyin.",
+      "Hamuru streç filme sarın ve 15 dakika dinlendirin.",
+      "Dereotunu ince ince doğrayın.",
+      "Dinlenen hamurdan ceviz büyüklüğünde parçalar koparıp elinizde yuvarlayın.",
+      "Hamurun ortasına biraz doğranmış dereotu ve beyaz peynir koyun.",
+      "Hamuru kapatıp yuvarlayarak puaça şekli verin.",
+      "Hazırladığınız puaçaları yağlı kağıt serili fırın tepsisine dizin.",
+      "Önceden ısıtılmış 180 derece fırında üzeri kızarana kadar pişirin.",
+      "Dereotlu puaçaları sıcak veya ılık olarak servis yapabilirsiniz. Afiyet olsun!",
+    ],
+  },
+  {
+    id: 992,
+    categories: "Tatlı",
+    title: "Çikolatalı Sufle",
+    explanation:
+      "Yoğun çikolata aromasıyla harika bir tatlı olan çikolatalı sufle tarifi.",
+    longDescription:
+      "Çikolatalı sufle, lezzetli ve göz alıcı bir tatlıdır. İçi yumuşacık ve akışkan çikolata dolgusuyla herkesin beğenisini kazanır. İşte çikolatalı sufle tarifi:",
+    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1686580609/sufle_l0nzki.png",
+    manyPerson: "4",
+    preparaTiontime: "20",
+    cookingTime: "15",
+    shareRecipe: [
+      {
+        name: "Mehmet ASLANTAŞ",
+        membershipStatus: "Kurucu",
+        email: "mehmetaslantas@mizanplas.net",
+        image:
+          "https://res.cloudinary.com/dd4d48hwn/image/upload/v1682791174/mehmetaslanta%C5%9F_aojjvf.jpg",
+      },
+    ],
+    materials: [
+      "150 gr bitter çikolata",
+      "100 gr tereyağı",
+      "3 adet yumurta",
+      "75 gr toz şeker",
+      "40 gr un",
+      "1 çay kaşığı vanilya özütü",
+      "Tereyağı ve un (kalıpları yağlamak için)",
+    ],
+    preparation: [
+      "Çikolatayı benmari usulü eritin ve tereyağı ekleyerek karıştırın. Soğumaya bırakın.",
+      "Yumurtaları ve toz şekeri mikserle çırpın. Karışım köpürene kadar çırpın.",
+      "Eritilmiş çikolata ve tereyağı karışımını yumurtalı karışıma ekleyin. Karıştırın.",
+      "Unu ekleyin ve karıştırarak homojen bir hamur elde edene kadar çırpın.",
+      "Vanilya özütünü ekleyin ve karıştırın.",
+      "Sufle kalıplarını tereyağıyla yağlayın ve unlayın.",
+      "Hazırladığınız karışımı sufle kalıplarına paylaştırın.",
+      "Önceden ısıtılmış 180°C fırında yaklaşık 12-15 dakika pişirin. Sufleler kabarana kadar pişirin.",
+      "Fırından çıkan sufleleri hemen sıcak servis yapın. Üzerine pudra şekeri serpiştirebilirsiniz.",
+      "Çikolatalı suflelerinizi sıcak olarak servis edin ve afiyetle yiyin!",
+    ],
+  },
+  {
+    id: 993,
+    categories: "Ana Yemek",
+    title: "Karnıyarık",
+    explanation:
+      "Türk mutfağının lezzetli yemeklerinden biri olan karnıyarık tarifi.",
+    longDescription:
+      "Karnıyarık, Türk mutfağının en sevilen yemeklerinden biridir. Patlıcanlar ve iç harcıyla muhteşem bir lezzet oluşturur. Malzemeler hazırsa, karnıyarık tarifimize geçebiliriz.",
+    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1686580606/karn%C4%B1yar%C4%B1k_og4l9v.png",
+    manyPerson: "4",
+    preparaTiontime: "20",
+    cookingTime: "40",
+    shareRecipe: [
+      {
+        name: "Mehmet ASLANTAŞ",
+        membershipStatus: "Kurucu",
+        email: "mehmetaslantas@mizanplas.net",
+        image:
+          "https://res.cloudinary.com/dd4d48hwn/image/upload/v1682791174/mehmetaslanta%C5%9F_aojjvf.jpg",
+      },
+    ],
+    materials: [
+      "4 adet patlıcan",
+      "300 gr kıyma",
+      "2 adet soğan",
+      "2 diş sarımsak",
+      "2 adet domates",
+      "2 yemek kaşığı sıvı yağ",
+      "1 yemek kaşığı tereyağı",
+      "1 çay kaşığı toz biber",
+      "Tuz",
+      "Karabiber",
+      "Maydanoz",
+    ],
+    preparation: [
+      "Patlıcanların sap kısımlarını kesin ve uzunlamasına ortadan ikiye bölün.",
+      "Tuzlu suda 10-15 dakika bekletin, ardından suyunu sıkarak çıkarın.",
+      "Bir tavada sıvı yağı kızdırın ve patlıcanları her iki tarafını da kızartın.",
+      "Kızaran patlıcanları bir tabağa alın ve fazla yağını kağıt havluyla alın.",
+      "Aynı tavada sıvı yağı tekrar kızdırın ve doğranmış soğanları ekleyerek kavurun.",
+      "Sarımsakları ekleyin ve kavurmaya devam edin.",
+      "Kıymayı ekleyin ve kavrulana kadar pişirin.",
+      "Doğranmış domatesleri ve baharatları ekleyin, karıştırın ve pişirin.",
+      "Kıymanın içerisine doğranmış maydanoz ekleyin ve karıştırın.",
+      "Kızarmış patlıcanların içerisine hazırladığınız kımyanın harcını paylaştırın ve patlıcanları kapatarak fırın tepsisine yerleştirin.",
+      "Üzerlerine dilerseniz rendelenmiş kaşar peyniri serpebilirsiniz.",
+      "Önceden ısıtılmış 180 derece fırında yaklaşık 20-25 dakika kadar pişirin.",
+      "Karnıyarık sıcak olarak servis yapabilirsiniz. Yanında pilav veya yoğurt ile servis edebilirsiniz. Afiyet olsun!",
+    ],
+  },
+
+  {
+    id: 994,
+    categories: "Ana Yemek",
+    title: "Etli Kuru Fasulye",
+    explanation:
+      "Geleneksel Türk mutfağının vazgeçilmez lezzetlerinden biri olan etli kuru fasulye tarifi.",
+    longDescription:
+      "Etli kuru fasulye, Türk mutfağının en sevilen yemeklerinden biridir. Uzun süre pişirilen fasulyeler, et ile birlikte harika bir lezzet oluşturur. Malzemeler hazırsa, etli kuru fasulye tarifimize geçebiliriz.",
+    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1686072346/Ads%C4%B1z_tasar%C4%B1m_21_kqwfbt.png",
+    manyPerson: "4",
+    preparaTiontime: "15",
+    cookingTime: "120",
+    shareRecipe: [
+      {
+        name: "Mehmet ASLANTAŞ",
+        membershipStatus: "Kurucu",
+        email: "mehmetaslantas@mizanplas.net",
+        image:
+          "https://res.cloudinary.com/dd4d48hwn/image/upload/v1682791174/mehmetaslanta%C5%9F_aojjvf.jpg",
+      },
+    ],
+    materials: [
       "500 gr kuru fasulye",
       "300 gr dana eti",
       "2 adet soğan",
@@ -29,9 +225,9 @@ export const recipes = [
       "Tuz",
       "Karabiber",
       "Kimyon",
-      "Su"
+      "Su",
     ],
-    "preparation": [
+    preparation: [
       "Kuru fasulyeleri akşamdan su dolu bir kapta ıslatın.",
       "Ertesi gün, fasulyeleri yıkayın ve süzün.",
       "Tencereye sıvı yağı ekleyin ve kızdırın.",
@@ -47,15 +243,15 @@ export const recipes = [
       "Fasulyelerin suyunu çektiğini ve etlerin tamamen piştiğini kontrol edin.",
       "Pişme süresi yaklaşık 2 saat olacaktır. Eğer fasulyeler hala sertse ve suyu çekilmemişse, pişirme süresini uzatabilirsiniz.",
       "Etli kuru fasulye, sıcak servis yapılabilir. Yanında pilav veya turşu ile servis edebilirsiniz.Afiyet olsun!",
-      
-    ]
+    ],
   },
   {
     id: 995,
     categories: "Salata",
     title: "Çoban Salata",
     explanation: "Lezzetli ve sağlıklı bir çoban salatası tarifi.",
-    longDescription: "Çoban salatası, taze sebzelerin harmanlanmasıyla hazırlanan bir salatadır. Malzemeler hazırsa, çoban salata tarifi için detaylara geçebiliriz.",
+    longDescription:
+      "Çoban salatası, taze sebzelerin harmanlanmasıyla hazırlanan bir salatadır. Malzemeler hazırsa, çoban salata tarifi için detaylara geçebiliriz.",
     img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1686072346/Ads%C4%B1z_tasar%C4%B1m_20_x5ieff.png",
     manyPerson: "4",
     preparaTiontime: "15",
@@ -80,7 +276,7 @@ export const recipes = [
       "Yarım limon",
       "3 yemek kaşığı zeytinyağı",
       "Tuz",
-      "Karabiber"
+      "Karabiber",
     ],
     preparation: [
       "Domatesleri, salatalıkları, yeşil biberi ve kırmızı biberi küp şeklinde doğrayın.",
@@ -92,8 +288,7 @@ export const recipes = [
       "Zeytinyağı, limon suyu, tuz ve karabiberi ekleyerek karıştırın.",
       "Salatayı buzdolabında en az yarım saat dinlendirin.",
       "Servis yapmadan önce karıştırarak servis tabağına alın. Afiyet olsun!",
-     
-    ]
+    ],
   },
   {
     id: 996,
@@ -152,7 +347,6 @@ export const recipes = [
       "Pişen Beef Wellington'ı fırından çıkarın ve biraz dinlenmesi için bekletin.",
       "Daha sonra dilimleyerek servis yapın.",
       "Beef Wellington'ı dilerseniz yanında püre patates veya sebzelerle servis edebilirsiniz. Afiyet olsun!",
-
     ],
   },
 
