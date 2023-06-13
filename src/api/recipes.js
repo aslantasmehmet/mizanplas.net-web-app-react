@@ -247,7 +247,7 @@ export const recipes = [
   },
   {
     id: 995,
-    categories: "Salata",
+    categories: "Salata & Meze",
     title: "Çoban Salata",
     explanation: "Lezzetli ve sağlıklı bir çoban salatası tarifi.",
     longDescription:
@@ -530,7 +530,7 @@ export const recipes = [
   },
   {
     id: 1000,
-    categories: "Meze",
+    categories: "Salata & Meze",
     title: "Uskumru Tarator",
     explanation:
       "Füme uskumru ve krema'nın eşşiz uyumu ile hazırlanan uskumru tarator, balık sevmeyenleri bile kendine hayran bırakacak bir mezedir.",

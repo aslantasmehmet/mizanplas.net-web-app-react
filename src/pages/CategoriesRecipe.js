@@ -19,15 +19,15 @@ export default function CategoriesRecipe() {
     <div>
       <Navbar />
       <div className="flex flex-row container mx-auto py-6 pl-4">
-        <a className="font-display ml-2" href="/">
+        <a className="font-display ml-2 text-2xl text-green-900 border-b border-transparent hover:border-b hover:border-green-900 transition duration-300 transform hover:translate-x-1" href="/">
           Ana Sayfa
         </a>
-        <div className="ml-2">/</div>
-        <a className="font-display ml-2" href="/kategoriler">
+        <div className="ml-2 text-3xl text-green-900 -translate-y-1">/</div>
+        <a className="font-display ml-2 text-2xl text-green-900 border-b border-transparent hover:border-b hover:border-green-900 transition duration-300 transform hover:translate-x-1" href="/kategoriler">
           Kategoriler
         </a>
-        <div className="mr-2">/</div>
-        <div className="font-display">{categoryName}</div>
+        <div className="ml-2 text-3xl text-green-900 -translate-y-1">/</div>
+        <div className="font-display ml-2 text-2xl text-green-900 ">{categoryName}</div>
       </div>
       <div className="bg-green-900 w-full h-16">
         <h2 className="font-semibold text-3xl mb-4 font-display2 text-white pt-3 text-left container mx-auto pl-4">

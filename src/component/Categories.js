@@ -30,7 +30,7 @@ export default function Categories() {
   return (
     <div className="container mx-auto py-10 px-4 sm:px-6 lg:px-8 categories">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-8">
-        {categories.map((category) => (
+        {categories.slice(0, 8).map((category) => (
           <Link to={`/kategori/${category.name}`} key={category.id}>
             <div className="flex flex-row items-center bg-white shadow-lg rounded-lg overflow-hidden transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
               <img
@@ -38,7 +38,7 @@ export default function Categories() {
                 src={category.img}
                 alt={category.name}
               />
-              <div className=" py-2 text-left -translate-x-12">
+              <div className="py-2 text-left -translate-x-12">
                 <div className="font-bold text-md font-display2 text-gray-800">
                   {category.name}
                 </div>

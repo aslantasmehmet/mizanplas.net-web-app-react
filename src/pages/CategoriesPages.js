@@ -32,11 +32,11 @@ export default function Categories() {
     <div>
         <Navbar/>
          <div className="flex flex-row container mx-auto py-6 pl-4 translate-y-12 translate-x-6">
-        <a className="font-display ml-2" href="/">
+         <a className="font-display ml-2 text-2xl text-green-900 border-b border-transparent hover:border-b hover:border-green-900 transition duration-300 transform hover:translate-x-1" href="/">
           Ana Sayfa
         </a>
-        <div className="ml-2">/</div>
-        <a className="font-display ml-2" href="/kategoriler">
+        <div className="ml-2 text-3xl text-green-900 -translate-y-1">/</div>
+        <a className="font-display ml-2 text-2xl text-green-900 border-b border-transparent hover:border-b hover:border-green-900 transition duration-300 transform hover:translate-x-1" href="/kategoriler">
           Kategoriler
         </a>
       </div>
