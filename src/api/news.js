@@ -1,6 +1,32 @@
 export const news = [
   {
-    id: 1,
+    id: 998,
+    categories: "Masterchef",
+    title: "Masterchef All Star İlk Fragmanı Yayınlandı!",
+    explanation:
+      "Büyük bir heyecanla beklenen yarışma programının ilk fragmanı yayınlandı. İzlemek için Tıklayın. ",
+    header:
+      "MasterChef Türkiye yarışması, heyecanla beklenen All Star formatıyla izleyicilerin karşısına geri döndü! Yeni sezon fragmanında dikkat çeken bir değişiklik oldu: Somer Sivrioğlu'nun yerine jüri üyeliğine Yılmaz Öztürk getirildi.",
+    longDescription: [
+      "Şef Yılmaz Öztürk, Türkiye'nin önde gelen otellerinde önemli bir deneyim kazandıktan sonra kendi restoranını açarak büyük bir başarı elde etti. Zengin bir kariyere sahip olan Öztürk, mükemmeliyetçi yaklaşımı ve yenilikçi tarifleriyle tanınıyor. Kariyeri boyunca birçok prestijli ödüle layık görülen Öztürk, MasterChef Türkiye'nin yeni sezonunda jüri üyesi olarak izleyicilerin karşısına çıkacak. Bu heyecan dolu sezonunda yarışmacılara tecrübesiyle rehberlik edecek olan Öztürk, lezzet dolu bir yolculukta unutulmaz bir rol üstlenecek.",
+      "Yarışmanın bu yeni dönemi, şaşırtıcı yaratıcılık ve tatlarla dolu bir deneyim sunacak. Hazırsanız, link' e tıklayarak  MasterChef Türkiye All Star ilk bölüm fragmanını izleyebilirsiniz.!",
+    ],
+    img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1686644358/Ads%C4%B1z_tasar%C4%B1m_35_rzi1ym.png",
+    video: "https://www.youtube.com/watch?v=eHtDM5YEkIU",
+    shareNews: [
+      {
+        name: "Mehmet ASLANTAŞ",
+        membershipStatus: "Founder",
+        email: "mehmetaslantas@mizanplas.net",
+        image:
+          "https://res.cloudinary.com/dd4d48hwn/image/upload/v1682791174/mehmetaslanta%C5%9F_aojjvf.jpg",
+      },
+    ],
+
+    Detaylar: [],
+  },
+  {
+    id: 999,
     categories: "Masterchef",
     title: "Masterchef All Star Başlıyor",
     explanation:
@@ -28,7 +54,7 @@ export const news = [
     Detaylar: [],
   },
   {
-    id: 2,
+    id: 1000,
     categories: "Kalp Krizi",
     title: "Bu yiyecekler kalp krizini tetikliyor!",
     explanation:
@@ -42,7 +68,7 @@ export const news = [
       "Aşırı tuz tüketimi, yüksek tansiyon riskini artırır ve kalp sağlığını olumsuz etkiler. Hazır gıdalarda, salamura ve konserve ürünlerdeki yüksek tuz içeriği dikkatle takip edilmelidir. Tuz kullanımının azaltılması için taze ve doğal gıdalar tercih edilmelidir.",
       "Hayvansal ürünlerde (kırmızı et, tam yağlı süt ürünleri, tereyağı) ve işlenmiş gıdalarda bol miktarda bulunan doymuş yağlar, kolesterol seviyelerini yükseltir ve kalp krizi riskini artırır. Sağlıklı yağ kaynaklarına yönelmek, doymuş yağ tüketimini azaltmak için önemlidir. Zeytinyağı, avokado, balık gibi omega-3 yağ asidi içeren gıdalar tercih edilmelidir.",
       "Kızartma yöntemiyle pişirilen etlerde ve işlenmiş et ürünlerinde bulunan doymuş yağlar, tuz ve katkı maddeleri kalp krizi riskini artırır.Bu nedenle, kırmızı et tüketimini sınırlamak ve alternatif olarak ızgara, fırında veya buğulama gibi daha sağlıklı pişirme yöntemlerini tercih etmek önemlidir. Ayrıca, işlenmiş et ürünlerinin tüketiminin azaltılması ve yerine taze et, tavuk veya balık gibi protein kaynaklarının tercih edilmesi önerilir.",
-      "Sonuç olarak, sağlıklı bir beslenme tarzı, kalp krizi riskini azaltmada önemli bir rol oynar. Şekerli gıdalar, trans yağlar, aşırı tuz, doymuş yağlar ve işlenmiş etler gibi kalp sağlığını olumsuz etkileyen yiyeceklerin tüketimi sınırlanmalıdır. Daha çok taze meyve, sebze, tam tahıllar, sağlıklı yağlar ve düşük yağlı protein kaynaklarına odaklanmak kalp sağlığını destekleyecektir. Sağlıklı beslenmeyle birlikte düzenli egzersiz yapmak, sigara içmemek ve stresten uzak durmak da kalp krizi riskini azaltmada etkili faktörlerdir."
+      "Sonuç olarak, sağlıklı bir beslenme tarzı, kalp krizi riskini azaltmada önemli bir rol oynar. Şekerli gıdalar, trans yağlar, aşırı tuz, doymuş yağlar ve işlenmiş etler gibi kalp sağlığını olumsuz etkileyen yiyeceklerin tüketimi sınırlanmalıdır. Daha çok taze meyve, sebze, tam tahıllar, sağlıklı yağlar ve düşük yağlı protein kaynaklarına odaklanmak kalp sağlığını destekleyecektir. Sağlıklı beslenmeyle birlikte düzenli egzersiz yapmak, sigara içmemek ve stresten uzak durmak da kalp krizi riskini azaltmada etkili faktörlerdir.",
     ],
     img: "https://res.cloudinary.com/dd4d48hwn/image/upload/v1683703598/Ads%C4%B1z_tasar%C4%B1m_5_qkmxpo.png",
     shareNews: [
@@ -57,7 +83,6 @@ export const news = [
 
     Detaylar: [],
   },
-  
 ];
 
 export default news;

@@ -4,6 +4,7 @@ import Search from "../component/Search";
 import { useParams } from "react-router";
 import newsData from "../api/news";
 import TopFlavors from "../component/TopFlavors";
+import { Link } from "react-router-dom";
 
 export default function NewsDetail() {
   const { title } = useParams();
@@ -43,6 +44,7 @@ export default function NewsDetail() {
                 </div>
               ))}
             </div>
+            <Link className="text-left ml-6 mt-6 text-blue-500" to={news.video}>{news.video} </Link>
             <div className="mt-6"></div>
           </div>
         </div>
