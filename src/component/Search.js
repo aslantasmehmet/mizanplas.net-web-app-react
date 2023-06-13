@@ -126,10 +126,10 @@ export default function Search() {
             ANA SAYFA{" "}
           </a>
           <div className="pt-2 pb-2 hover:translate-x-2 duration-300">
-            BLOG & TARİFLER
+            <a href="/hakkımızda">HAKKIMIZDA </a>
           </div>
           <div className="pt-2 pb-2 hover:translate-x-2 duration-300">
-            YAZARLAR
+           <a href="/kategoriler">TARİFLER</a>
           </div>
           <a href="/market" className="pt-2 pb-2 hover:translate-x-2 duration-300 text-green-900 font-semibold text-base">
             MİZANPLAS MARKET

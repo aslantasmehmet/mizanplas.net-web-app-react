@@ -48,15 +48,15 @@ export default function Navbar() {
 
   return (
     <div>
-      <div className="w-full h-12 bg-stone-100 hidden md:block">
+      <div className="w-full h-16s bg-stone-100 hidden md:block">
         {/* NAVİGASYON BUTONLAR */}
 
         <div className="flex flex-row  pt-4 pl-16 font-display text-xs">
           <div className="pt-0.5">
             <a href="/">ANA SAYFA</a>
           </div>
-          <div className="px-8 pt-0.5">TARİFLER & BLOGLAR </div>
-          <div className="pr-8 pt-0.5">YAZARLAR</div>
+          <div className="px-8 pt-0.5"> <a href="/hakkımızda">HAKKIMIZDA</a> </div>
+          <div className="pr-8 pt-0.5"><a href="/kategoriler">TARİFLER</a></div>
           <a
             href="/market"
             className="pr-8 pt-0.5 text-green-900 font-semibold text-base -translate-y-1"
@@ -115,7 +115,7 @@ export default function Navbar() {
 
           {/* HESABIM DROPDOWN */}
 
-          <div
+          {/* <div
             className="relative flex items-center pr-10 pb-2.5"
             ref={accountDropdownRef}
           >
@@ -154,7 +154,7 @@ export default function Navbar() {
                 </div>
               </div>
             )}
-          </div>
+          </div> */}
           <div className="pt-0.5">İLETİŞİM</div>
           {/* SOSYAL İCON */}
           <div className="flex flex-row translate-x-56 ">
