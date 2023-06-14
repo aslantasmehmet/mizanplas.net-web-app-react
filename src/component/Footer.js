@@ -13,8 +13,8 @@ export default function Footer() {
       {/* Navbar Logo*/}
       <div className="flex flex-col md:flex-row md:justify-between mt-16">
         <div className="flex flex-row justify-center items-center md:ml-16 mt-4 md:mt-0">
-          <div className="mr-16 font-display2 text-2xl hidden md:block">Künye</div>
-          <div className="font-display2 text-2xl hidden md:block">İletişim</div>
+          <div className="mr-16 font-display2 text-2xl hidden md:block hover:border-b hover:border-green-900 transition duration-300 transform hover:translate-x-1"><a href="/hakkımızda">Hakkımızda</a></div>
+          <div className="font-display2 text-2xl hidden md:block hover:border-b hover:border-green-900 transition duration-300 transform hover:translate-x-1"><a href="/iletisim">İletişim</a></div>
         </div>
         <div className="flex flex-col justify-center items-center md:translate-x-12">
           <div className="text-6xl font-display3 text-black">
@@ -25,8 +25,8 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-row justify-center items-center md:mr-16 mt-4 md:mt-0">
-          <div className="mr-16 font-display2 text-2xl hidden md:block">Aydınlatma Metni</div>
-          <div className="font-display2 text-2xl hidden md:block">Gizlilik</div>
+          <div className="mr-16 font-display2 text-2xl hidden md:block hover:border-b hover:border-green-900 transition duration-300 transform hover:translate-x-1"><a href="/aydınlatma-metni">Aydınlatma Metni</a></div>
+          <div className="font-display2 text-2xl hidden md:block hover:border-b hover:border-green-900 transition duration-300 transform hover:translate-x-1"><a href="/gizlilik">Gizlilik</a></div>
         </div>
       </div>
 
@@ -45,21 +45,21 @@ export default function Footer() {
           © 2023 mizanplas.net. Tüm hakları saklıdır.
         </div>
         <div className="flex flex-row justify-center items-center md:-translate-x-32 mt-4">
-          <a href="https://instagram.com">
+          <a href="https://instagram.com/mizanplasnet">
             <AiFillInstagram
-              className="mr-4 pb-1 hover:text-orange-300 duration-300"
+              className="mr-4 pb-1 hover:text-green-900 duration-300"
               size={45}
             />
           </a>
-          <a>
+          <a href="https://twitter.com/mizanplasnet">
             <AiFillTwitterSquare
-              className="mr-4 pb-1 hover:text-orange-300 duration-300"
+              className="mr-4 pb-1 hover:text-green-900 duration-300"
               size={45}
             />
           </a>
-          <a>
+          <a href="https://facebook.com/mizanplasnet">
             <AiFillFacebook
-              className="mr-4 pb-1 hover:text-orange-300 duration-300"
+              className="mr-4 pb-1 hover:text-green-900 duration-300"
               size={45}
             />
           </a>
