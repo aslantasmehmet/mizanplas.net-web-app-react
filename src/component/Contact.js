@@ -82,9 +82,9 @@ export default function Contact() {
               />
               <label
                 htmlFor="privacy"
-                class="ml-2 mt-3 text-lg text-left font-normal text-black font-display -translate-y-6"
+                class="ml-2 mt-4 text-lg text-left font-normal text-black font-display -translate-y-6"
               >
-                Gizlilik politikasını okudum, onaylıyorum.
+                <a href="/gizlilik-politikası" className="text-blue-500">Gizlilik politikasını</a> okudum, onaylıyorum.
               </label>
             </div>{" "}
           </div>
