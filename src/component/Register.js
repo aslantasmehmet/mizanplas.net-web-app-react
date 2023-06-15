@@ -14,31 +14,30 @@ export default function Register() {
   };
   return (
     <div>
-      <div className="mx-4">
-        <div className="text-3xl font-display2 text-left mb-8">Üye Ol</div>
-        <div className="border-2 md:w-[550px] w-auto h-auto md:h-[450px] flex flex-col md:pl-20 pl-12 pt-12">
+      <div className="">
+        <div className=" md:w-[550px] w-auto h-auto md:h-[450px] flex flex-col  ">
           <form onSubmit={handleSubmit}>
             <div className="flex flex-row ">
-              <div className="my-4 text-md font-display2 text-left font-semibold ">
+              <div className="my-4 text-md font-display2 text-left font-semibold translate-x-10 ">
                 E-posta
               </div>
-              <div className="text-red-500 ml-1 translate-y-2 text-xl">*</div>
+              <div className="text-red-500 ml-1 translate-y-2 text-xl translate-x-10">*</div>
             </div>
             <input
-              className="border-2 shadow rounded focus:none md:w-96 w-auto h-12 -translate-x-10"
+              className="border-2 shadow rounded focus:none md:w-80 w-auto h-12 -translate-x-20"
               type="text"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
 
             <div className="flex flex-row">
-              <div className="my-4 text-md font-display2 text-left font-semibold ">
+              <div className="my-4 text-md font-display2 text-left font-semibold translate-x-10">
                 Parola
               </div>
-              <div className="text-red-500 ml-1 translate-y-2 text-xl">*</div>
+              <div className="text-red-500 ml-1 translate-y-2 text-xl translate-x-10">*</div>
             </div>
             <input
-              className="border-2 shadow rounded focus:none md:w-96 w-auto h-12 -translate-x-10"
+              className="border-2 shadow rounded focus:none md:w-80 w-auto h-12 -translate-x-20"
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
