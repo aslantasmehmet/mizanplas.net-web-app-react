@@ -8,9 +8,21 @@ import {
   AiFillFacebook,
 } from "react-icons/ai";
 import { BsFillEnvelopeFill } from "react-icons/bs";
+import { CiUser } from "react-icons/ci";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
+import { getUser } from "../firebase";
 
 export default function Search() {
+  const [user, setUser] = useState(null);
+  useEffect(() => {
+    const fetchUser = async () => {
+      const userData = await getUser(); // Firebase'den kullanıcı bilgilerini alın
+      setUser(userData); // Kullanıcı bilgisini state'e kaydedin
+    };
+
+    fetchUser();
+  }, []);
+
   // SİDEBAR "ALIŞVERİŞ" VE "HESABIM" DROPDOWN STATE YÖNETİMİ
   const [showShoppingDropdown, setShowShoppingDropdown] = useState(false);
   const [showAccountDropdown, setShowAccountDropdown] = useState(false);
@@ -122,16 +134,19 @@ export default function Search() {
           </div>
         </div>
         <div className="flex flex-col text-left divide-y mx-8 mt-16 font-display">
-          <a href ="/" className="pb-2 hover:translate-x-2 duration-300">
+          <a href="/" className="pb-2 hover:translate-x-2 duration-300">
             ANA SAYFA{" "}
           </a>
           <div className="pt-2 pb-2 hover:translate-x-2 duration-300">
             <a href="/hakkımızda">HAKKIMIZDA </a>
           </div>
           <div className="pt-2 pb-2 hover:translate-x-2 duration-300">
-           <a href="/kategoriler">TARİFLER</a>
+            <a href="/kategoriler">TARİFLER</a>
           </div>
-          <a href="/market" className="pt-2 pb-2 hover:translate-x-2 duration-300 text-green-900 font-semibold text-base">
+          <a
+            href="/market"
+            className="pt-2 pb-2 hover:translate-x-2 duration-300 text-green-900 font-semibold text-base"
+          >
             MİZANPLAS MARKET
           </a>
           <div
@@ -158,13 +173,22 @@ export default function Search() {
             {showAccountDropdown && (
               <div className="absolute z-40 top-9 left-0 bg-white p-4 shadow border-2 w-80 h-20 duration-300">
                 <div className="flex flex-col">
-                  <a
-                    href="/login"
-                    className="hover:text-gray-800 hover:translate-x-2 duration-300 my-3"
-                  >
-                    GİRİŞ YAP / ÜYE OL
-                  </a>
-                  
+                  {!user ? (
+                    <a
+                      href="/login"
+                      className="font-semibold font-display2 text-green-900 hover:translate-x-2 duration-300 my-3"
+                    >
+                      GİRİŞ YAP / ÜYE OL
+                    </a>
+                  ) : (
+                    <a
+                      href="/hesabım"
+                      className=" border mt-2 w-56 bg-green-900 font-normal font-display2 text-white flex flex-row pl-4 py-3 -translate-y-3 rounded hover:text-black duration-300"
+                    >
+                      <CiUser size={25} className="mr-3" />
+                      <p>{user.displayName}</p>
+                    </a>
+                  )}
                 </div>
               </div>
             )}
@@ -175,29 +199,29 @@ export default function Search() {
         </div>
         {/* SOSYLA İCON */}
         <div className="flex flex-row mt-32 justify-center ">
-          <a href="https://instagram.com">
+          <a href="https://instagram.com/mizanplasnet">
             <AiFillInstagram
               href=""
-              className="mr-4 pb-1 hover:text-purple-500 duration-300"
-              size={28}
+              className="mr-4 pb-1 hover:text-green-900 duration-300"
+              size={35}
             />
           </a>
-          <a>
+          <a href="https://twitter.com/mizanplasnet">
             <AiFillTwitterSquare
-              className="mr-4 pb-1 hover:text-purple-500 duration-300"
-              size={28}
+              className="mr-4 pb-1 hover:text-green-900 duration-300"
+              size={35}
             />
           </a>
-          <a>
+          <a href="https://facebook.com/mizanplasnet">
             <AiFillFacebook
-              className="mr-4 pb-1 hover:text-purple-500 duration-300"
-              size={28}
+              className="mr-4 pb-1 hover:text-green-900 duration-300"
+              size={35}
             />
           </a>
-          <a>
+          <a href="/iletisim">
             <BsFillEnvelopeFill
-              className="mr-4 hover:text-purple-500 duration-300"
-              size={21}
+              className="mr-4 hover:text-green-900 duration-300"
+              size={29}
             />
           </a>
         </div>{" "}
